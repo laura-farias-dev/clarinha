@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
     playPauseBtn.addEventListener('click', function() {
         if (music.paused) {
             music.play();
-            playPauseBtn.innerHTML = '<i class="fas fa-heart"></i>';
+            playPauseBtn.innerHTML = '<i class="fas fa-volume-up"></i>'; // Ícone de áudio silenciado
         } else {
             music.pause();
-            playPauseBtn.innerHTML = '<i class="fas fa-heart-broken"></i>';
+            playPauseBtn.innerHTML = '<i class="fas fa-volume-mute"></i>'; // Ícone de volume
         }
     });
 

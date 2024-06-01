@@ -289,26 +289,12 @@ button#play-pause-btn {
     padding: 0;
 }
 
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        color: red;
-    }
-    50% {
-        transform: scale(1.2);
-        color: #ff4d4d; /* Cor vermelha mais clara */
-    }
-    100% {
-        transform: scale(1);
-        color: red;
-    }
-}
 
 
-.fa-heart-broken {
+.fa-volume-mute {
     font-size: 30px;
 }
-.fa-heart {
+.fa-volume-up {
     animation: pulse 1s infinite;
     font-size: 30px;
 }
@@ -323,14 +309,3 @@ button#play-pause-btn {
     font-size: 20px;
 }
 
-.arrow p {
-    margin-right: 10px;
-}
-
-.arrow-icon {
-    width: 0;
-    height: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 20px solid black;
-}
