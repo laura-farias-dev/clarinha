@@ -95,6 +95,18 @@ input#open {
     text-align: center;
     filter: drop-shadow(0 0 20px rgba(0,0,0,0.3));
 }
+.note1 {
+    position: relative;
+ 
+    top: 95px;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Align text in center */
+    text-align: center;
+    filter: drop-shadow(0 0 20px rgba(0,0,0,0.3));
+}
 
 .note:before, .note:after {
     position: absolute;
